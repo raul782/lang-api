@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
-var mongoose = require('mongoose');
-var User = require('../models/User.js');
+const express = require('express');
+const router = express.Router();
+const mongoose = require('mongoose');
+const User = require('../models/User.js');
 
 /* GET ALL USERS */
 router.get('/', function(req, res, next) {
